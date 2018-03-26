@@ -1,0 +1,135 @@
+p, span, h2, a {
+	font-family: Arial, Sans-serif;
+}
+p {
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0;
+}
+h2 {
+	margin: 0;
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.flex {
+	display: flex;
+	display: flexbox;
+	display: -webkit-flex;
+}
+.flex-column {
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	justify-content: space-between;
+	 -webkit-justify-content: space-between;
+}
+.padding-left {
+	padding-left: 25px;
+}
+.padding-right {
+	padding-right: 25px;
+}
+.border-left {
+	border-left: 1px solid #bfbfbf;
+}
+.container {
+	width: 1000px;
+	margin: 50px auto 0;
+	background: #f6f6f6;
+	padding: 20px;
+	box-sizing: border-box;
+	border: 1px solid #777;
+}
+.inner {
+	padding: 25px;
+	box-sizing: border-box;
+	background: #FFF;
+	align-items: stretch;
+}
+.inner img {
+	display: block;
+}
+.inner h2 {
+	color: #6283b8;
+	font-weight: 400;
+}
+.text {
+	font-size: 14px;
+	line-height: 18px;
+	height: 52px;
+	width: 400px;
+}
+.info {
+	color: #bfbfbf;
+}
+.info span, .info a {
+	color: #6283b8 !important;
+	text-decoration: none;
+}
+.personal {
+	flex-grow: 1;
+}
+.raiting {
+	padding: 0 15px;
+	height: 100%;
+}
+.raiting-info {
+	align-content: baseline;
+}
+.raiting-number {
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: 600;
+	color: #90b866;
+	margin-right: 10px;
+}
+.raiting-values {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	bottom: -3px;
+}
+.raiting-values li {
+	width: 8px;
+	height: 8px;
+	background: #bfbfbf;
+	border-radius: 50%;
+	display: inline-block;
+	overflow: hidden;
+}
+.raiting-value {
+	background: #e7b567;
+	height: inherit;
+	display: inherit;
+	float: left;
+}
+.raiting-value-100 {
+	width: 100%;
+}
+.raiting-value-50 {
+	width: 50%;
+}
+.raiting-review {
+	text-align: center;
+}
+.button {
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	text-align: center;
+	border-radius: 4px;
+	color: #FFF !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#97c765+1,7fb04b+100 */
+	background: #97c765; /* Old browsers */
+	background: -moz-linear-gradient(top, #97c765 1%, #7fb04b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #97c765 1%,#7fb04b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #97c765 1%,#7fb04b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#97c765', endColorstr='#7fb04b',GradientType=0 ); /* IE6-9 */
+	text-decoration: none;
+	border: 1px solid #7fb04b;
+	margin-bottom: 15px;
+}
